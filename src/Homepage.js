@@ -6,7 +6,7 @@ function Homepage() {
 
     useEffect(() => {
 
-        fetch('http://18.207.217.131:8080/newslens/')
+        fetch('http://3.86.218.176:8080/newslens/')
         .then(response => response.text())
         .then(data =>  {
             setApiResp(data);
